@@ -16,4 +16,7 @@ RewriteRule ^(.+)\.html$ http://timhillrocks.com/$1 [R=301,L]
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-order allow,deny deny from all
+<Directory .git>
+    order allow,deny
+    deny from all
+</Directory>
