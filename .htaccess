@@ -1,0 +1,18 @@
+Options +FollowSymlinks
+Options +Indexes
+RewriteEngine on
+
+ErrorDocument 404 /404.html
+
+RewriteCond %{HTTP_HOST} ^www\.timhillrocks.com [NC]
+RewriteRule ^(.*) http://timhillrocks.com/$1 [L,R=301]
+
+RewriteBase /
+RewriteRule ^index\.html?$ / [NC,R,L]
+
+RewriteCond %{THE_REQUEST} ^[a-zA-Z]{3,9}\ /([^.]+\.)+html\ HTTP
+RewriteRule ^(.+)\.html$ http://timhillrocks.com/$1 [R=301,L]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
