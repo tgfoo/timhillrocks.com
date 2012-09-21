@@ -5,7 +5,7 @@
 /*
 A more considered reset; more of a restart...
 */
-/* line 18, ../sass/reset.scss */
+/* line 18, ../sass/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr,
 a, abbr, address, cite, code,
@@ -22,97 +22,97 @@ time, mark, audio, video {
   padding: 0;
 }
 
-/* line 23, ../sass/reset.scss */
+/* line 23, ../sass/_reset.scss */
 article, aside, details, figcaption, figure, footer,
 header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 26, ../sass/reset.scss */
+/* line 26, ../sass/_reset.scss */
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
 
-/* line 29, ../sass/reset.scss */
+/* line 29, ../sass/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 33, ../sass/reset.scss */
+/* line 33, ../sass/_reset.scss */
 strong, b, mark {
   font-weight: bold;
   font-style: inherit;
 }
 
-/* line 37, ../sass/reset.scss */
+/* line 37, ../sass/_reset.scss */
 em, i, cite, q, address, dfn, var {
   font-style: italic;
   font-weight: inherit;
 }
 
-/* line 41, ../sass/reset.scss */
+/* line 41, ../sass/_reset.scss */
 abbr[title], dfn[title] {
   cursor: help;
   border-bottom: 1px dotted;
 }
 
-/* line 45, ../sass/reset.scss */
+/* line 45, ../sass/_reset.scss */
 ins {
   border-bottom: 1px solid;
 }
 
-/* line 48, ../sass/reset.scss */
+/* line 48, ../sass/_reset.scss */
 a, u, ins {
   text-decoration: none;
 }
 
-/* line 51, ../sass/reset.scss */
+/* line 51, ../sass/_reset.scss */
 del, s {
   text-decoration: line-through;
 }
 
-/* line 54, ../sass/reset.scss */
+/* line 54, ../sass/_reset.scss */
 pre, code, samp, kbd {
   font-family: monospace;
 }
 
-/* line 57, ../sass/reset.scss */
+/* line 57, ../sass/_reset.scss */
 small {
   font-size: 0.75em;
 }
 
-/* line 60, ../sass/reset.scss */
+/* line 60, ../sass/_reset.scss */
 img {
   border: none;
   font-style: italic;
 }
 
-/* line 66, ../sass/reset.scss */
+/* line 66, ../sass/_reset.scss */
 input,
 select,
 textarea {
   font: inherit;
 }
 
-/* line 3, ../sass/screen.scss */
+/* line 6, ../sass/screen.scss */
 html {
   font-size: 1em;
   line-height: 1.5;
 }
 
-/* line 7, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 body {
   width: 960px;
   margin: 0 auto;
   padding: 5em 2em 2em;
   background: white url(/images/bodybg.jpg);
   color: #404040;
-  font-family: 'Bitter', Georgia, serif;
+  font-family: "Bitter", Georgia, serif;
 }
 
 /* Common margin-bottom for vertical rhythm. */
-/* line 23, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6,
 ul, ol, dl,
 fieldset,
@@ -125,7 +125,7 @@ hr {
 }
 
 /* These handle massive type, for less frequently occuring bits of text (e.g. in mastheads and banners). */
-/* line 29, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .giga {
   font-size: 80px;
   font-size: 5rem;
@@ -134,7 +134,7 @@ hr {
   /* 96px */
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .mega {
   font-size: 64px;
   font-size: 4rem;
@@ -143,7 +143,7 @@ hr {
   /* 72px */
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .kilo {
   font-size: 48px;
   font-size: 3rem;
@@ -153,7 +153,7 @@ hr {
 }
 
 /* Define headings and their associated classes here. */
-/* line 46, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 h1, .alpha {
   font-size: 32px;
   font-size: 2rem;
@@ -162,7 +162,7 @@ h1, .alpha {
   /* 48px */
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 h2, .beta {
   font-size: 1.5em;
   /* 24px */
@@ -170,7 +170,7 @@ h2, .beta {
   /* 24px */
 }
 
-/* line 55, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 h3, .gamma {
   font-size: 20px;
   font-size: 1.25rem;
@@ -179,7 +179,7 @@ h3, .gamma {
   /* 24px */
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 h4, .delta {
   font-size: 18px;
   font-size: 1.125rem;
@@ -188,7 +188,7 @@ h4, .delta {
   /* 24px */
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 h5, .epsilon {
   font-size: 16px;
   font-size: 1rem;
@@ -197,7 +197,7 @@ h5, .epsilon {
   /* 24px */
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 h6, .zeta {
   font-size: 16px;
   font-size: 1rem;
@@ -207,7 +207,7 @@ h6, .zeta {
 }
 
 /* Smaller-than-body-copy sizes here. */
-/* line 77, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 small, .milli {
   font-size: 12px;
   font-size: 0.75rem;
@@ -216,36 +216,34 @@ small, .milli {
   /* 24px */
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 ​
 p {
   margin: 1em 0;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 #social {
   list-style: none;
 }
-
-/* line 96, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 #social li {
   float: left;
   padding-right: 1em;
 }
 
-/* line 101, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 ul#facts {
   margin-left: 2em;
 }
-
 /* line 105, ../sass/screen.scss */
-#facts li {
+ul#facts li {
   line-height: 1.4em;
   padding-bottom: 1em;
 }

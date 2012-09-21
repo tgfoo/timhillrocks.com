@@ -1,3 +1,6 @@
+$font-base: 'Bitter', Georgia, serif;
+$header-font-base: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+
 @import "reset.scss";
 
 html{
@@ -10,7 +13,7 @@ body {
 	padding: 5em 2em 2em;
 	background: white url(/images/bodybg.jpg);
 	color: #404040;
-	font-family: 'Bitter', Georgia, serif;
+	font-family: $font-base;
 }
 
 /* Common margin-bottom for vertical rhythm. */
@@ -86,23 +89,21 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
-	font-family: "Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: $header-font-base;
 }
 
 #social {
     list-style: none;
-}
-
-#social li {
-	float: left;
-	padding-right: 1em;
+    li {
+        float: left;
+        padding-right: 1em;
+    }
 }
 
 ul#facts {
 	margin-left: 2em;
-}
-
-#facts li {
-	line-height: 1.4em;
-	padding-bottom: 1em;
+    li {
+        line-height: 1.4em;
+        padding-bottom: 1em;
+    }
 }
